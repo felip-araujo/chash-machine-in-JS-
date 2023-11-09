@@ -36,4 +36,8 @@ function saque(){
             alert("Digite um valor válido")
         }
     
+} 
+
+function encerrar(){
+    window.location.reload(true);
 }
