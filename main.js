@@ -6,9 +6,9 @@ function verifSaldo(){
     HTMLtemporario = $result.innerHTML, 
     HTMLnovo = "O seu saldo é R$: " + saldo;  
     HTMLtemporario = HTMLnovo + HTMLtemporario; 
-    $result.innerHTML = HTMLtemporario;
+    $result.innerHTML = HTMLtemporario; 
+}
 
-} 
 
 function deposito(){
     var novoValor = window.prompt("Qual o valor a depositar ?"); 
